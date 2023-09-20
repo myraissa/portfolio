@@ -648,6 +648,11 @@ button:focus {
   border-left: 2px solid #8a49a8;
   position: relative;
 }
+.resume-container {
+  text-align: center;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
 
 .resume .resume-item .resume-title {
   line-height: 18px;
