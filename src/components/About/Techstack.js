@@ -21,6 +21,9 @@ import {BsGit} from "react-icons/bs"
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
       <Col xs={4} md={2} className="tech-icons"><AiFillHtml5/></Col>
       <Col xs={4} md={2} className="tech-icons"><BiLogoCss3/></Col>
       <Col xs={4} md={2} className="tech-icons"><DiJavascript/></Col>
@@ -28,9 +31,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>

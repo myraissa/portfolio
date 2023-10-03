@@ -8,6 +8,7 @@ import ToDo from "../../Assets/Projects/ToDo.jpg"
 import editor from "../../Assets/Projects/taquin.png";
 import chatify from "../../Assets/Projects/RL.jpeg";
 import F2G from "../../Assets/Projects/F2G.png"
+import homescreen from "../../Assets/Projects/homescreen.jpg";
 import rub from "../../Assets/rubiks.png";
 import bitsOfCode from "../../Assets/Projects/seg.png";
 import connect from "../../Assets/Projects/connect.jpg"
@@ -62,7 +63,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={F2G}
+              imgPath={homescreen}
               isBlog={false}
               title="Fourniture To Give"
               description="A school supplies mobile app to simplify the process of collecting and distributing school materials by enabling users to request or donate them.

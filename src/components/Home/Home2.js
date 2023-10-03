@@ -24,10 +24,9 @@ function Home2() {
                     In fact,I believe that software engineering and development are the heart of our technological landscape.
                     They drive innovation, solve complex problems,
                      and enhance user experiences across industries.<br />
-              <br />I have a deep passion for  <b className="purple">web and mobile development.</b>
-                     My goal is to sustain and grow this enthusiasm, particularly in the realm of  <b className="purple">AI</b>,
-                     and actively contribute to groundbreaking advancements in the field, unlocking its
-                      potential for transformative change.
+              <br />I used to be really into creating   <b className="purple"> websites and phone apps.</b>
+              But what really excited me was diving into the world of  <b className="purple">artificial intelligence (AI) and data science. </b>
+              I wanted to learn more about machine learning and using data to uncover insights. My goal was to keep that excitement alive and be part of cool things happening in this space. I dreamed of using AI and data science to create positive changes, and I was eager to keep learning more and more.
             </p>
           </Col>
           <Col md={4} className="myAvtar" >
