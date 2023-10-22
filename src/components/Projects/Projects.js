@@ -15,6 +15,9 @@ import connect from "../../Assets/Projects/connect.jpg"
 import Poster from "./Posterresearch" // change
 import site from "../../Assets/Projects/site.jpg"
 import web from "../../Assets/Projects/web.jpg"
+import covid from "../../Assets/Projects/covid.png"
+import brain from "../../Assets/Projects/brain.png"
+import sign from "../../Assets/Projects/sign.jpg"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -25,8 +28,34 @@ function Projects() {
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-        
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={brain}
+              isBlog={false}
+              title="Advanced Brain Tumor Detection System"
+              description="In the realm of healthcare, a groundbreaking web-based solution is rewriting the rules. By harnessing the prowess of state-of-the-art AI technology, it's redefining the game in early detection of brain tumors. This innovation is not just identifying but actively addressing critical health issues, marking a transformative leap forward in medical care."
+                         
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sign}
+              isBlog={false}
+              title="SignSense ‐ Real‐time ASL Hand Sign Detection"
+              description="Crafted with precision and innovation, a cutting-edge program has been developed for the detection of American Sign Language (ASL) hand signs. This technology represents a significant leap forward in bridging communication gaps, offering a sophisticated solution to recognize and interpret ASL gestures with accuracy and efficiency."
+                     
+            />
+          </Col>
           
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={covid}
+              isBlog={false}
+              title="Covid Insights Builder"
+              description="Amid the COVID-19 era, an impactful initiative emerges—an engineered analysis project. Using advanced preprocessing and modeling, it extracts meaningful insights from the vast virus-related data. This project, blending cutting-edge tech with a commitment to understanding the pandemic, testifies to the power of data-driven solutions in global health challenges."
+                     
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -35,7 +64,7 @@ function Projects() {
               title="Creation of a linking platform between artificial intelligence platforms"
               description="Provides an intuitive interface for managing shortcuts and exploring APIs, accessible even to all users
               with th integration of diverse AI APIs for unified access to AI capabilities through custom shortcuts."
-              ghLink="https://github.com/ichrakhamdi/Taquin_game"             
+                       
             />
           </Col>
 
