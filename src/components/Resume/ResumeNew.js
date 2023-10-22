@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/myraissa/portfolio/main/src/Assets/resume.pdf";
+  "https://raw.githubusercontent.com/myraissa/portfolio/main/src/Assets/Resume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -31,15 +31,8 @@ function ResumeNew() {
           <div className="resume-container">
           <Page
                 pageNumber={1}
-                width={width > 786 ? 650: 100} // Adjust the width as needed
-                height={width > 786 ?400 : 150} // Adjust the height as needed
-              />
-            </div>
-            <div className="resume-container">
-            <Page
-                pageNumber={2}
-                width={width > 786 ? 650 : 100} // Adjust the width as needed
-                height={width > 786 ? 400 : 150} // Adjust the height as needed
+                width={width > 786 ? 800 : 150} // Adjust the width as needed
+                height={width > 786 ? 500 : 200} // Adjust the height as needed
               />
             </div>
           </Document>
